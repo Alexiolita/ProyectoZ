@@ -8,14 +8,8 @@ body{
     align-items: center;
     margin-bottom: 5px;
     }    
-    .divlogo{
-       display: flex;
-       align-items: center;
-       width:15%; 
-       justify-content: center;
-       }
     #logo{
-        width: 45%;
+        width: 15%;
         }
 
     .horizontal{
