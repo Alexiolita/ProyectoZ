@@ -58,6 +58,22 @@ p{
 #imagenZombies {
     width: 100%;
 }
+/*Lista*/
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+span{
+    background-color: rgba(65, 8, 19, 0.651);
+}
+.li-kit{
+    list-style: circle;
+    
+}
 /*Tabla*/
 th {
     background-color: rgba(165, 42, 42, 0.685);
