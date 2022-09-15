@@ -54,15 +54,11 @@ p{
     font-size: 18px; 
     text-align: justify;
 }
-
-
-
+/*imagenHTML1*/
 #imagenZombies {
     width: 100%;
 }
-
-
-
+/*Tabla*/
 th {
     background-color: rgba(165, 42, 42, 0.685);
 }
@@ -77,16 +73,23 @@ table, td, tr {
 table {
     width: 100%;
 }
-
-.test {
-    color: antiquewhite;
-    border: 2px solid rgb(63, 7, 7);
-    background-color: rgba(5, 19, 5, 0.712);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-}
-
+/*Formulario*/
+.divTest{
+    align-items: flex-start;
+  }
+.formulario{
+    width:150%;
+    margin: 3% 0% 3% 0%;  
+  }
+  label{
+    padding-right: 3%;
+    font-weight: bold;
+    font-style: italic;
+  }
+  input{
+    border: 3px inset rgb(105, 97, 97);
+    background-color: rgba(248, 244, 244, 0.753);
+  }
 h6{
     background-color:rgba(87, 90, 88, 0.571);
     text-align: center;
