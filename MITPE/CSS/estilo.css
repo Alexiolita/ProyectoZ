@@ -61,14 +61,7 @@ p{
     width: 100%;
 }
 
-h6{
-    background-color:rgba(208, 208, 208, 0.5);
-    text-align: center;
-    padding:2px;
-    font-family:'Courier New', Courier, monospace;
-    color:rgb(251, 251, 251);
-    position:sticky;
-}
+
 
 th {
     background-color: rgba(165, 42, 42, 0.685);
@@ -92,4 +85,13 @@ table {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: center;
+}
+
+h6{
+    background-color:rgba(87, 90, 88, 0.571);
+    text-align: center;
+    padding:1%;
+    margin-bottom: 1%;
+    font-size: 15px;
+    position:sticky;
 }
