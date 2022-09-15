@@ -77,6 +77,7 @@ span{
 /*Tabla*/
 th {
     background-color: rgba(165, 42, 42, 0.685);
+    font-size: 18px;
 }
 tbody {
     color: bisque;
@@ -85,6 +86,7 @@ tbody {
 table, td, tr {
     border: 2px solid black;
     border-collapse: collapse;
+    text-align: center;
 }
 table {
     width: 100%;
