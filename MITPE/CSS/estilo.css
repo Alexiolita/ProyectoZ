@@ -1,11 +1,12 @@
 body{
     background-image: url('../Images/fondo.jpg');
+    font-family: 'Courier New', Courier, monospace;
     color:rgb(202, 206, 200); 
-    font-family: 'Courier New', Courier, monospace; 
-}
+    }
+/*Header*/
 .encabezado{
-    display: flex;
     background-color:rgba(87, 90, 88, 0.571);
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1%;
@@ -24,11 +25,11 @@ body{
     cursor: pointer;  
     }
 .menu{
-    text-decoration: none;
-    font-weight: bold;
     font-size: 23px;
+    font-weight: bold;
+    color:rgb(238, 238, 242);
+    text-decoration: none;
     padding: 10px;
-    color:rgb(238, 238, 242); 
     }
 .menu:hover {
     background-color: rgba(65, 8, 19, 0.651);
@@ -45,10 +46,13 @@ h1{
     text-transform: uppercase;
 }
 .contenido{
-    background-color:rgba(16, 34, 19, 0.8);
     padding: 2%;
+<<<<<<< HEAD
   
+=======
+>>>>>>> cb0cc22027b2d5fae4b29f451b30217b0ab0a0d4
     margin-top: 1%;
+    background-color:rgba(16, 34, 19, 0.8);
 }
 p{
     font-size: 18px; 
@@ -58,7 +62,7 @@ p{
 #imagenZombies {
     width: 100%;
 }
-/*Lista*/
+/*Subtitulos*/
 h2 {
     font-size: 20px;
     font-weight: bold;
@@ -70,48 +74,46 @@ h2 {
 span{
     background-color: rgba(65, 8, 19, 0.651);
 }
+/*Lista*/
 .li-kit{
     list-style: circle;
-    
 }
 /*Tabla*/
+table {
+    width: 100%;
+}
 th {
-    background-color: rgba(165, 42, 42, 0.685);
     font-size: 18px;
+    background-color: rgba(165, 42, 42, 0.685);
 }
 tbody {
     color: bisque;
     background-color: rgba(2, 17, 12, 0.644);
 }
 table, td, tr {
+    text-align: center;
     border: 2px solid black;
     border-collapse: collapse;
-    text-align: center;
-}
-table {
-    width: 100%;
 }
 /*Formulario*/
-
-.formulario{
+.formulario{ /*div que contiene label con su input correspondiente*/
     margin: 3% 0% 3% 0%;  
   }
-  label{
-    padding-right: 3%;
+label{
     font-weight: bold;
-  }
-  input{
+    padding-right: 3%;
+}
+input{
+    color: bisque;
     border: 3px inset rgb(48, 2, 2);
     background-color: rgba(94, 73, 73, 0.528);
-    color: bisque;
-  }
-
+}
 /*Footer*/
 h6{
     background-color:rgba(87, 90, 88, 0.571);
+    font-size: 15px;
     text-align: center;
     padding:1%;
     margin-bottom: 1%;
-    font-size: 15px;
     position:sticky;
 }
