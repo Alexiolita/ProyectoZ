@@ -1,74 +1,61 @@
 body{
     background-image: url('../Images/fondo.jpg');
+    color:rgb(202, 206, 200); 
+    font-family: 'Courier New', Courier, monospace; 
 }
 .encabezado{
     display: flex;
-    background-color:rgba(18, 3, 46, 0.5);
+    background-color:rgba(87, 90, 88, 0.571);
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 1%;
+    padding: 1% 2% 1% 2%;
     }    
-    #logo{
-        width: 15%;
-        }
-
-    .horizontal{
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        }
-        .li-horizontal{
-            padding-right: 10px;
-            padding-left: 10px;
-            list-style: none;
-            cursor: pointer;  
-            }
-        .menu{
-            text-decoration: none;
-            font-family:'Courier New', Courier, monospace;
-            font-weight: bold;
-            color:rgb(251, 251, 251);
-            font-size: 18px; 
-            }
-
-.contenedor {
-    display: flex;
-    flex-direction: column;
-    padding: 2%;
+#logo{
+    width: 10%;
     }
-
-    .titulo{
-     font-family:system-ui, 'Segoe UI','Open Sans', sans-serif;
-        font-weight: bold;
-        color:rgb(251, 251, 251);
-        font-size: 20px;
-        padding-top: 3px;
-        background-color: rgba(65, 8, 19, 0.651);
-        }
-
+.Navegador{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    }
+.li-navegador{
+    list-style: none;
+    cursor: pointer;  
+    }
+.menu{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 10px;
+    color:rgb(238, 238, 242); 
+    }
+.menu:hover {
+    background-color: rgba(65, 8, 19, 0.651);
+    }
+/*Cuerpo*/
+.titulo{
+    background-color: rgba(65, 8, 19, 0.651);
+    padding: 2px;
+    }
 h1{
-    color:rgb(202, 206, 200); 
-    font-family: 'Courier New', Courier, monospace; 
+    font-size: 30px;
+    font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
 }
-
 .contenido{
     background-color:rgba(16, 34, 19, 0.8);
     padding: 2%;
     justify-content: space-between;    
+    margin-top: 1%;
 }
-
-.parrafos{
-    color:rgb(238, 238, 242); 
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px; 
+p{
+    font-size: 18px; 
     text-align: justify;
 }
 
-.divImagen {
-    display: flex;
-    justify-content: center;
-}
+
 
 #imagenZombies {
     width: 100%;
