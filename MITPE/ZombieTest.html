@@ -95,13 +95,19 @@
                     <input id="pregunta9" type="radio" value="si">OJALÁ
                 </div>
             </form>
-            <div class="contenedor">
-                <p>Valida que no eres un robot</p>
-                <input type="texto" id="Mensajes">
-                <input type="texto" id="texto">
-                <button id="botonEnviar">Enviar</button>
+            <div class="divCaptcha">
+                <label for="captcha">¿Eres un robot?</label>
+                <input id="captcha" type="text" maxlenght="8" value="">
+           
+                <label for="ingresoCaptcha"></label>
+                <input id="ingresoCaptcha" type="text" maxlength="8" placeholder="Ingrese captcha respetando MAYUSC. y minusc." value="">
+           
+                <label for="botonCaptcha"></label>
+                <input type="button" id="botonCaptcha" value="Comprobar">
+            </div>
+            <p id="textoFinal">Verificacion</p>  
         </div>
-        </div>
+
         <footer>
             <h6>Apocalipsis: ZombieTest</h6>
         </footer>
