@@ -124,18 +124,18 @@ h6{
     padding: 2px;
     background-color: rgba(189, 178, 178, 0.425);
 }
+.letras{
+    background-image: url('../Images/Fondo.jpeg');
+    
+}
 label{
     padding: 1%;
     color: white;
 
 }
 #captcha{
-    width:90%;
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgba(231, 200, 231, 0.76);
-    border: outset rgba(31, 29, 29, 0.473);
-    text-align: center;
 }
 .divCaptcha header{
     color:rgb(93, 8, 8);
