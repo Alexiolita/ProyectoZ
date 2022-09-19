@@ -1,4 +1,3 @@
-const captcha= document.querySelector(".captchaa"),
 let nuevoCaptcha = document.querySelector('#captcha');
 let ingresoTexto = document.querySelector('#ingresoCaptcha');
 let textoVerificado = document.querySelector('#textoFinal');
@@ -15,7 +14,7 @@ function generaCaptcha(){
         let letra = array[index]; //la variable letra toma el valor que alla almacenado en ese index del array
         texto += letra; //la variable texto almacena la suma de todas las letras.
     }
-    nuevoCaptcha.innerHTML = texto; //el nuevo captcha cambia su valor con lo que se almaceno en la variable texto
+    nuevoCaptcha.value = texto; //el nuevo captcha cambia su valor con lo que se almaceno en la variable texto
     console.log(texto); //imprime el captcha
 }
 generaCaptcha();
@@ -29,7 +28,7 @@ const MAX = 5;
 let intento = 0;
 //la funcion validarCaptcha comprueba que si el texto no coincide con el captcha te vuelva a reiniciar todo
 function validarCaptcha(){
-    if (ingresoTexto.value != nuevoCaptcha){ //si texto es distinto del captcha entra en el if
+    if (ingresoTexto.value != nuevoCaptcha.value){ //si texto es distinto del captcha entra en el if
         if (intento< MAX){ // si intentos es menor al maximo numero de intentos entra al if
             let intentosRestantes=(MAX - intento); 
             intento++; //si entra es porque ingreso mal los datos entonces se van sumando los intentos 
