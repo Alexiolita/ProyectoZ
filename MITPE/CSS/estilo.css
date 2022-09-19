@@ -137,6 +137,40 @@ label{
     border: outset rgba(31, 29, 29, 0.473);
     text-align: center;
 }
+.divCaptcha header{
+    color:rgb(93, 8, 8);
+    font-size: 50px;
+    text-align: center;
+}
+.divCaptcha .captcha{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.captcha .captcha-img {
+    height: 100%;
+    user-select: none;
+    border-radius: 5px;
+    position: relative;
+}
+.captcha-img img{
+    width: 98%;
+    height: 20%;
+    opacity: 0.95;
+    border-radius: 4px;
+}
+.captcha-img .captchaa{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 10px;
+    transform: translate(-50%, -50%);
+}
+
 #ingresoCaptcha{
     width: 80%;
     font-size: 10px;
