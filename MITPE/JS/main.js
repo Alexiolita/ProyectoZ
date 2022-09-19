@@ -1,4 +1,4 @@
-const captcha= document.querySelector(".captcha"),
+const captcha= document.querySelector(".captchaa"),
 let nuevoCaptcha = document.querySelector('#captcha');
 let ingresoTexto = document.querySelector('#ingresoCaptcha');
 let textoVerificado = document.querySelector('#textoFinal');
