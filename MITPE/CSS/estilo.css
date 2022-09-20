@@ -142,7 +142,7 @@ label{
 #botonCaptcha{
     border: 2px outset rgba(230, 139, 139, 0.569);
 }
-#textoFinal{
+#textoVerificaCaptcha{
     color: rgb(3, 153, 0);
     font-size: 12px;
     text-align: center;
