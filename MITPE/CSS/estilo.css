@@ -147,7 +147,7 @@ label{
     font-size: 12px;
     text-align: center;
 }
-#resultadoFormulario{
+#textoResultadoFormulario{
     text-align: center;
     border-top: 5px ridge rgba(202, 179, 184, 0.651);
     border-bottom: 5px ridge rgba(202, 179, 184, 0.651);
