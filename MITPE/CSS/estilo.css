@@ -105,15 +105,6 @@ input{
     border: 3px inset rgb(48, 2, 2);
     background-color: rgba(94, 73, 73, 0.528);
 }
-/*Footer*/
-h6{
-    background-color:rgba(87, 90, 88, 0.571);
-    font-size: 15px;
-    text-align: center;
-    padding:1%;
-    margin-bottom: 1%;
-    position:sticky;
-}
 
 /*Captcha*/
 .divCaptcha{
@@ -126,14 +117,7 @@ h6{
     background-color: rgba(65, 8, 19, 0.651);
     margin-left: 25%;
 }
-h3{
-    font-size: 25px;
-}
-label{
-    padding: 3%;
-    color: white;
 
-}
 #captcha{
     width:80%;
     font-size: 35px;
@@ -148,6 +132,30 @@ label{
     text-align: center;
     border: 2px inset rgba(31, 29, 29, 0.569);
 }
+label{
+    padding: 2%;
+    color: white;
+}
+#botonCaptcha{
+    border: 2px outset rgba(230, 139, 139, 0.569);
+}
 #textoFinal{
     color: rgb(3, 153, 0);
+    font-size: 12px;
+    text-align: center;
+}
+#resultadoFormulario{
+    text-align: center;
+    border-top: 5px ridge rgba(202, 179, 184, 0.651);
+    border-bottom: 5px ridge rgba(202, 179, 184, 0.651);
+    color: rgb(231, 216, 219);
+}
+/*Footer*/
+h6{
+    background-color:rgba(87, 90, 88, 0.571);
+    font-size: 15px;
+    text-align: center;
+    padding:1%;
+    margin-bottom: 1%;
+    position:sticky;
 }
