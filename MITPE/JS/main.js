@@ -1,6 +1,7 @@
 let nuevoCaptcha = document.querySelector('#captcha');
 let ingresoTexto = document.querySelector('#ingresoCaptcha');
 let verificaCaptcha = document.querySelector('#textoVerificaCaptcha');
+let textoResultadoFormulario = document.querySelector('#textoResultadoFormulario')
 let botonComprobar = document.querySelector('#botonCaptcha'); 
 botonComprobar.addEventListener("click", validarCaptcha);
 
@@ -27,9 +28,9 @@ function reiniciaTexto(){
 //Cambia el estilo del texto del resultado del test en caso de ser correcto el captcha ingresad
 function cambiaResultadoTest(){
     textoVerificado.innerHTML = "Captcha correcto";
-    document.querySelector('#textoResultadoFormulario').innerHTML = "Información importante: En caso de haber seleccionado la opción SI más de 5 veces, lo siento, ya te has contagiado el virus. Por el momento no hay cura, la mejor opción es aislarte.";
-    document.querySelector('#textoResultadoFormulario').classList.add("captchaCorrecto");
-    document.querySelector('#textoResultadoFormulario').classList.remove("captchaIncorrecto");
+    textoResultadoFormulario.innerHTML = "Información importante: En caso de haber seleccionado la opción SI más de 5 veces, lo siento, ya te has contagiado el virus. Por el momento no hay cura, la mejor opción es aislarte.";
+    textoResultadoFormulario.classList.add("captchaCorrecto");
+    textoResultadoFormulario.classList.remove("captchaIncorrecto");
 }
 
 const MAX = 5;
