@@ -147,11 +147,18 @@ label{
     font-size: 12px;
     text-align: center;
 }
-#textoResultadoFormulario{
+.captchaIncorrecto{
     text-align: center;
     border-top: 5px ridge rgba(202, 179, 184, 0.651);
     border-bottom: 5px ridge rgba(202, 179, 184, 0.651);
     color: rgb(231, 216, 219);
+}
+.captchaCorrecto{
+    text-align: center;
+    border: 5px ridge rgba(141, 0, 31, 0.651);
+    padding: 5px;
+    background-color: burlywood;
+    color: rgb(141, 0, 31);
 }
 /*Footer*/
 h6{

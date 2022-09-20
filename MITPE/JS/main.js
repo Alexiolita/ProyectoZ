@@ -25,6 +25,14 @@ function reiniciaTexto(){
     ingresoTexto.value = ingresoTexto.nodeValue;
 }
 
+//Cambia el estilo del texto del resultado del test en caso de ser correcto el captcha ingresad
+function cambiaResultadoTest(){
+    textoVerificado.innerHTML = "Captcha correcto";
+    resultadoFormulario.innerHTML = "Información importante: En caso de haber seleccionado la opción SI más de 5 veces, lo siento, ya te has contagiado el virus. Por el momento no hay cura, la mejor opción es aislarte.";
+    resultadoFormulario.classList.add("captchaCorrecto");
+    resultadoFormulario.classList.remove("captchaIncorrecto");
+}
+
 const MAX = 5;
 let intento = 0;
 //la funcion validarCaptcha comprueba que si el texto no coincide con el captcha te vuelva a reiniciar todo
@@ -40,8 +48,7 @@ function validarCaptcha(){
             verificaCaptcha.innerHTML = "Se acabaron los intentos.";   
         }
     }else{
-    verificaCaptcha.innerHTML = "Captcha correcto.";
-    resultadoFormulario.innerHTML = "Información importante: En caso de haber seleccionado la opción SI más de 5 veces, lo siento, ya te has contagiado el virus. Por el momento no hay cura, la mejor opción es aislarte.";
+        cambiaResultadoTest();
     } 
 }
 
