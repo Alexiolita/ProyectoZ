@@ -33,14 +33,14 @@ function validarCaptcha(){
         if (intento< MAX){ 
             let intentosRestantes=(MAX - intento); 
             intento++; 
-            verificaCaptcha.innerHTML = "Captcha ingresado de manera incorrecta.Restan " + intentosRestantes + " intentos.";
+            verificaCaptcha.innerHTML = "Captcha ingresado de manera incorrecta. Restan " + intentosRestantes + " intentos.";
             generaCaptcha(); 
             reiniciaTexto();         
         } else{
             verificaCaptcha.innerHTML = "Se acabaron los intentos.";   
         }
     }else{
-    verificaCaptcha.innerHTML = "Captcha correcto. INFORMACIÓN IMPORTANTE: En caso de haber respondido más de 5 si, lo siento, pero te estás convirtiendo en zombie.";
+    verificaCaptcha.innerHTML = "Captcha correcto.";
     resultadoFormulario.innerHTML = "Información importante: En caso de haber seleccionado la opción SI más de 5 veces, lo siento, ya te has contagiado el virus. Por el momento no hay cura, la mejor opción es aislarte.";
     } 
 }
