@@ -5,21 +5,21 @@ body{
     font-family: 'Courier New', Courier, monospace;
     color:rgb(202, 206, 200); 
     }
-/*Header*/
+/*Encabezado*/
 .encabezado{
-    background-color:rgba(87, 90, 88, 0.571);
+    background-color:rgba(87, 90, 88, 0.65);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1%;
+    margin-bottom: 1.5%;
     padding: 1% 2% 1% 2%;
     }    
 #logo{
-    width: 10%;
+    width: 13%;
     }
 .Navegador{
     display: flex; 
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     }
 .li-navegador{
@@ -34,11 +34,11 @@ body{
     padding: 10px;
     }
 .menu:hover {
-    background-color: rgba(65, 8, 19, 0.651);
+    background-color: rgba(129, 5, 30, 0.741);
     }
-/*Cuerpo*/
+/*Titulo*/
 .titulo{
-    background-color: rgba(65, 8, 19, 0.651);
+    background-color: rgba(129, 5, 30, 0.741);
     padding: 2px;
     }
 h1{
@@ -47,9 +47,10 @@ h1{
     text-align: center;
     text-transform: uppercase;
 }
+/*Cuerpo*/
 .contenido{
     padding: 2%;
-    margin-top: 1%;
+    margin-top: 0.5%;
     background-color:rgba(16, 34, 19, 0.8);
 }
 p{
@@ -70,7 +71,7 @@ h2 {
     border-bottom: 1px solid red;
 }
 span{
-    background-color: rgba(65, 8, 19, 0.651);
+    background-color: rgba(65, 8, 19, 0.768);
     padding: 5px;
 }
 /*Lista*/
@@ -114,14 +115,14 @@ input{
     flex-direction: column;
     align-items: center;
     border: 1px solid rgb(86, 0, 0);
-    width: 50%;
-    padding: 2px;
+    width: 30%;
+    padding: 15px;
+    margin-left: 30%;
     background-color: rgba(65, 8, 19, 0.651);
-    margin-left: 25%;
 }
 
 #captcha{
-    width:80%;
+    width: 90%;
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace;
     background-image: url('../Images/Fondo.jpeg');
@@ -129,8 +130,8 @@ input{
     text-align: center;
 }
 #ingresoCaptcha{
-    width: 80%;
-    font-size: 20px;
+    width: 90%;
+    font-size: 18px;
     text-align: center;
     border: 2px inset rgba(31, 29, 29, 0.569);
 }
@@ -158,6 +159,7 @@ h6{
     font-size: 15px;
     text-align: center;
     padding:1%;
+    margin-top: 1%;
     margin-bottom: 1%;
     position:sticky;
 }
