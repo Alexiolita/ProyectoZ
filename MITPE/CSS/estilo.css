@@ -1,5 +1,7 @@
 body{
-    background-image: url('../Images/fondo.jpg');
+    background-image: url('../Images/fondoBody.png');
+    background-repeat: repeat-y;
+    background-size: contain;
     font-family: 'Courier New', Courier, monospace;
     color:rgb(202, 206, 200); 
     }
