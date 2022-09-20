@@ -1,6 +1,7 @@
 let nuevoCaptcha = document.querySelector('#captcha');
 let ingresoTexto = document.querySelector('#ingresoCaptcha');
-let textoVerificado = document.querySelector('#textoFinal');
+let verificaCaptcha = document.querySelector('#textoVerificaCaptcha');
+let resultadoFormulario = document.querySelector('#textoResultadoFormulario');
 let botonComprobar = document.querySelector('#botonCaptcha'); 
 botonComprobar.addEventListener("click", validarCaptcha);
 
@@ -32,14 +33,15 @@ function validarCaptcha(){
         if (intento< MAX){ 
             let intentosRestantes=(MAX - intento); 
             intento++; 
-            textoVerificado.innerHTML = "Captcha ingresado de manera incorrecta.Restan " + intentosRestantes + " intentos.";
+            verificaCaptcha.innerHTML = "Captcha ingresado de manera incorrecta.Restan " + intentosRestantes + " intentos.";
             generaCaptcha(); 
             reiniciaTexto();         
         } else{
-            textoVerificado.innerHTML = "Se acabaron los intentos.";   
+            verificaCaptcha.innerHTML = "Se acabaron los intentos.";   
         }
     }else{
-    textoVerificado.innerHTML = "Captcha correcto. INFORMACIÓN IMPORTANTE: En caso de haber respondido más de 5 si, lo siento, pero te estás convirtiendo en zombie.";
+    verificaCaptcha.innerHTML = "Captcha correcto. INFORMACIÓN IMPORTANTE: En caso de haber respondido más de 5 si, lo siento, pero te estás convirtiendo en zombie.";
+    resultadoFormulario.innerHTML = "Información importante: En caso de haber seleccionado la opción SI más de 5 veces, lo siento, ya te has contagiado el virus. Por el momento no hay cura, la mejor opción es aislarte.";
     } 
 }
 
