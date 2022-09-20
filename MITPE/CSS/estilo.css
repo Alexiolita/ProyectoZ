@@ -60,7 +60,7 @@ p{
 }
 /*Subtitulos*/
 h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -69,6 +69,7 @@ h2 {
 }
 span{
     background-color: rgba(65, 8, 19, 0.651);
+    padding: 5px;
 }
 /*Lista*/
 .li-kit{
@@ -84,7 +85,7 @@ th {
 }
 tbody {
     color: bisque;
-    background-color: rgba(2, 17, 12, 0.644);
+    background-color: rgba(3, 39, 27, 0.788);
 }
 table, td, tr {
     text-align: center;
