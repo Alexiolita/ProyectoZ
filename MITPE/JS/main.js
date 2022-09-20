@@ -39,7 +39,7 @@ function validarCaptcha(){
             textoVerificado.innerHTML = "Se acabaron los intentos.";    //si no entra al segundo if es porque se superaron los intentos
         }
     }else{
-    textoVerificado.innerHTML = "Captcha correcto. Información importante: En caso de haber respondido mas de 5 si, lo siento, ya te has contagiado el virus";
+    textoVerificado.innerHTML = "Captcha correcto. INFORMACIÓN IMPORTANTE: En caso de haber respondido más de 5 si, lo siento, pero te estás convirtiendo en zombie.";
     } //si no entra al primer if es porque el texto es igual al captcha y por lo tanto es correcto
 }
 
