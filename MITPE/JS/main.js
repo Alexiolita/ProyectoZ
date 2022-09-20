@@ -10,7 +10,7 @@ function generaCaptcha(){
     let texto=""; //Al iniciar se le da un valor "" para que al reiniciarla el valor de texto no quede con lo almacenado del captcha anterior. 
     let index = 0;
     for(let i=1; i <= 8; i++){
-        index = Math.floor(Math.random()*(64-0+1)+0); //genera un numero aleatorio de index del array
+        index = Math.floor(Math.random()*(63-0+1)+0); //genera un numero aleatorio de index del array
         let letra = array[index]; //la variable letra toma el valor que alla almacenado en ese index del array
         texto += letra; //la variable texto almacena la suma de todas las letras.
     }
