@@ -1,7 +1,7 @@
 let nuevoCaptcha = document.querySelector('#captcha');
 let ingresoTexto = document.querySelector('#ingresoCaptcha');
 let verificaCaptcha = document.querySelector('#textoVerificaCaptcha');
-let textoResultadoFormulario = document.querySelector('#textoResultadoFormulario')
+let textoResultadoFormulario = document.querySelector('#textoResultadoFormulario');
 let botonComprobar = document.querySelector('#botonCaptcha'); 
 botonComprobar.addEventListener("click", validarCaptcha);
 
