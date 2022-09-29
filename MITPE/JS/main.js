@@ -15,7 +15,7 @@ function generaCaptcha(){
         let letra = array[index]; 
         texto += letra; 
     }
-    nuevoCaptcha.value = texto; 
+    nuevoCaptcha.innerHTML = texto; 
     console.log(texto); 
 }
 generaCaptcha();
@@ -37,7 +37,7 @@ const MAX = 5;
 let intento = 0;
 //la funcion validarCaptcha comprueba que si el texto no coincide con el captcha te vuelva a reiniciar todo
 function validarCaptcha(){
-    if (ingresoTexto.value != nuevoCaptcha.value){ 
+    if (ingresoTexto!= nuevoCaptcha){ 
         if (intento< MAX){ 
             let intentosRestantes=(MAX - intento); 
             intento++; 
